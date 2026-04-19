@@ -93,19 +93,3 @@ streamlit run main.py
 3. Add a custom focus prompt (optional).
 4. Ask questions, generate summaries, or practice quizzes.
 
-## Troubleshooting
-- `ModuleNotFoundError`: Activate your virtual environment and reinstall dependencies.
-- API errors: Verify `GEMINI_API_KEY` in `.env`.
-- Empty/poor summaries: Ensure uploaded PDFs contain selectable text (not only scanned images).
-
-## Security Notes
-- Never commit `.env` or API keys.
-- Rotate your API key if it is exposed accidentally.
-
-## Future Improvements
-- Topic-wise quiz difficulty levels
-- Progress tracking and saved sessions
-- Better handling for scanned PDFs (OCR)
-
-## License
-Add a license file (for example, MIT) if you plan to distribute this project publicly.
